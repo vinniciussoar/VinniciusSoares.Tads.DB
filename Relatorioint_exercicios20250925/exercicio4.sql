@@ -3,4 +3,4 @@ COUNT (VENDEDOR) AS qnt_vendas,
 SUM (VALOR) AS qnt_total
 from vendas
 GROUP BY Vendedor
-ORDER BY qnt_total DESC;
+ORDER BY qnt_total DESc;
