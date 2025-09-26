@@ -1,0 +1,3 @@
+SELECT produto, valor
+FROM VENDAS
+WHERE valor BETWEEN 200 AND 1000;
